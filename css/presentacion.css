@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans+JP:wght@600&family=Schibsted+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@100&family=Noto+Sans+JP:wght@600&family=Schibsted+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans+JP:wght@600&family=Roboto:wght@100&family=Schibsted+Grotesk&display=swap');
+
+body {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8)
+    ), url(../images/fondo.png);
+}
+
+
+
+.presentacion {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-nombre {
+    display: flex;
+    font-size: 70px;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-left: 20px;
+    color: white;
+}
+
+.titulo {
+    font-size: 20px;
+    font-family: 'Roboto';
+    padding-left: 150px;
+    color: white;
+}

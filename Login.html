@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cuerpo.css">
+    <link rel="stylesheet" href="css/hora.css">
+    <link rel="stylesheet" href="css/presentacion.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/pie_de_pagina.css">
+    <link rel="stylesheet" href="css/registrar.css">
+    <title>Cat Team</title>
+</head>
+<body>   
+    <div class="verhora" id="verhora">
+        <div class="contenido-reloj"> 
+            <p class ="reloj" id="hora"></p><p class ="reloj">:</p><p class ="reloj" id="minuto"></p><p class ="reloj" id="ampm"></p>
+        </div>
+        <div class ="contenido-fecha" id="fecha">
+            <p class="reloj" id="dia-semana"> </p><p class="reloj">,</p><p class="reloj" id="dia"> </p><p class="reloj"> de </p><p class="reloj" id="mes"> </p><p class="reloj"> del </p><p class="reloj" id="año"></p>
+        </div>
+    </div>
+
+    <main class="presentacion">
+        <div class="contenido">
+            <div class="logo">
+                <img src="images/logo.png" alt="" style="width: 90px;">
+                <div>
+                    <p class="logo-nombre">Academy Diary</p>
+                </div>
+            </div>            
+            <h2 class="titulo">CaTTeam</h2>    
+            <img src="" alt="">
+        </div>
+
+        <section class="login">
+            <form class="login-form">
+                <p class="login-titulo"><strong>Iniciar Sesión</strong></p>
+                <input class="barra-input" type="text" placeholder="Nombre de usuario">
+                <input class="barra-input" type="password" placeholder="Contraseña">
+                <input class="boton-login" type="button" value="Ingresar">
+                <div class="registro">
+                    <p class="login-registro">Si no posees una cuenta te puedes</p>
+                    <input class="boton-registro" id="evento-registrar" type="button" value="Registrar">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <ul class="idioma">
+            <li>Español</li>
+            <li>Inglés</li>
+            <li>Protugués</li>
+            <li>Japonés</li>
+        </ul>
+        <ul class="mas">
+            <li>Contacto</li>
+            <li>Nosotros</li>
+            <li>Noticias</li>
+            <li>LifeTime</li>
+        </ul>
+        <div class="copy"> <p>The Cat Company. Copyrigth 2023 Todos los derechos reservados.</p> </div>
+    </footer>
+
+    <div class="register">
+        <div class="iconoSalir">
+            <img src="images/icono-salir.png" alt="salir" id="cerrarRegistro">
+        </div>
+        <section class="register-content">
+            <div class="register-list">
+                <form action="register-form" method="post">
+                    <p class="register-titulo"><strong>Registrar</strong></p>
+                    <input class="barra-input" type="text" placeholder="Correo Electrónico">
+                    <input class="barra-input" type="text" placeholder="Nombre de usuario">
+                    <input class="barra-input" type="password" placeholder="Contraseña">
+                    <input class="boton-registro" type="button" value="Registrar">
+            </form>
+            </div>
+        </section>
+    </div>
+    <script src="Jquery/jquery-3.7.0.min.js"></script>
+    <script src="js/hora.js"></script>
+    <script src="js/registro.js"></script>
+</body>
+</html>

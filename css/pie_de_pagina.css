@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@100&family=Noto+Sans+JP:wght@600&family=Roboto:wght@100&family=Schibsted+Grotesk&display=swap');
+
+.pie {
+    opacity: 0.5;
+}
+
+.idioma {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    list-style: none;
+    color: white;
+}
+
+.idioma li {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;    
+}
+
+.mas {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    list-style: none;
+    color: white;
+}
+
+.mas li {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: white;
+}
+

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Schibsted+Grotesk&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar {
+    background-color: rgb(41, 41, 41);
+}
+
+.nav-contenido {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.nav-icons {
+    list-style: none;
+    display: flex;   
+}
+
+.pag {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 18px;
+}
+

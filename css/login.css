@@ -1,0 +1,64 @@
+.login {
+    width: 300px;
+    background: rgb(255, 251, 251);
+    padding: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-right: 100px;
+    border-radius: 10px;
+    font-family: "calibri";
+    text-align: center;
+}
+
+.login-titulo {
+    font-size: 30px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.barra-input {
+    width: 97%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px;
+    border-color: rgb(66, 66, 66);
+    padding-left: 10px;
+}
+
+.boton-login {
+    width: 100%;
+    background-color: rgb(230, 122, 122);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+
+.login-registro {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.boton-registro {
+    width: 50%;
+    background-color: rgb(66, 95, 228);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: white;
+}

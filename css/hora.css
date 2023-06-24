@@ -1,0 +1,25 @@
+.verhora {
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: white;
+    opacity: 0.5;
+}
+
+.contenido-reloj{
+    display: flex;
+    padding-left: 10px;
+}
+
+.reloj {
+    padding: 2px;
+    
+}
+
+.contenido-fecha {
+    display: flex;
+}
