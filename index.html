@@ -11,25 +11,31 @@
     <main class="general">
         <div class="titulo">
             <div class="titulo-contenido">
-                <img src="" alt="">
+                <img src="images/logo.png" alt="" style="width: 100px; height: 100px;">
                 <div id="academyDiary">
                     <h1>Academy Diary</h1>
                     <p>CaTTeam</p>
+                    <input class="boton-login" id="boton-login" type="button" value="Log-in">
                 </div>
             </div>
         </div>
 
-        <div class="login">
+        <div class="login" id="login">
             <section class="login-contenido">
+                <h3>Log in</h3>
                 <form action="" method="post">
                     <input class="credenciales" type="text" name="user" placeholder="Ingresar usuario">
                     <input class="credenciales" type="password" name="password" placeholder="Contraseña">
-                    <input class="boton-login" type="button" value="Log-in">
+                    <input class="boton-login" id= "boton-login" type="button" value="Log-in">
                     <p>Are you new here?</p>
-                    <input class="boton-registro" type="button" value="Create account">
+                    <input class="boton-registro" id="boton-registro" type="button" value="Create account">
                 </form>
             </section>
         </div>
     </main>
+    
+    <script src="Jquery/jquery-3.7.0.min.js"></script>
+    <script src="js/hora.js"></script>
+    <script src="js/scroll.js"></script>
 </body>
 </html>
