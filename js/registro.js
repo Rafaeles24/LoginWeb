@@ -1,13 +1,10 @@
-$(".register").css("display", "none")
-
 $(function(){
-    $("#evento-registrar").click(function(){
-        $(".register").css("display", "flex")
+    $("#boton-registro").click(function(){
+        $(".registro").css("display", "flex")
+    })
+
+    $("#boton-login-registro").click(function(){
+        $(".registro").css("display", "none")
     })
 })
 
-$(function(){
-    $("#cerrarRegistro").click(function(){
-        $(".register").css("display","none")
-    })
-})

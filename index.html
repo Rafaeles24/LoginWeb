@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="import.css">
+    <link rel="stylesheet" href="css/normalize.css_8.0.1.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/import.css">
     <title>Cat team</title>
 </head>
 <body>
@@ -26,7 +27,8 @@
                 <form action="" method="post">
                     <input class="credenciales" type="text" name="user" placeholder="Username">
                     <input class="credenciales" type="password" name="password" placeholder="Password">
-                    <input class="boton-login" id= "boton-login" type="button" value="Log-in">
+                    <p>Remember me <input type="checkbox" name="" id=""></p>
+                    <input class="boton-login" id= "boton-login" type="button" value="GO!">
                     <p>Are you new here?</p>
                     <input class="boton-registro" id="boton-registro" type="button" value="Create account">
                 </form>
@@ -34,20 +36,22 @@
         </div>
     </main>
     
-    <div class="registro">
+    <div class="registro" id="registro">
         <div class="registro-box">
             <div class="registro-contenido">
                 <h3>New Account</h3>
+                <p>Are you have an account? <input class="boton-login" id="boton-login-registro" type="button" value="Go back"></p>
                 <form action="" method="post">
+                    <p>Personal data:</p>
                     <div class="persona">
                         <input class="credenciales-persona" type="text" name="user" placeholder="Name">
                         <input class="credenciales-persona" type="text" name="user" placeholder="Last name">
+                        <input class="credenciales" type="date" name="age" id="">
                     </div>
+                    <p>User data:</p>
                     <input class="credenciales" type="email" name="user" placeholder="Email">
                     <input class="credenciales" type="text" name="user" placeholder="Username">
                     <input class="credenciales" type="password" name="password" placeholder="Password">
-                    <p>date of birth</p>
-                    <input class="credenciales" type="date" name="age" id="">
                     <p>If you will create a new account. You agree to the <a href="#">terms and conditions</a> <input type="checkbox" name="checkTC" id=""></p>
                     <input class="boton-crear" id= "boton-crear" type="button" value="Create">
                 </form>
@@ -58,5 +62,6 @@
     <script src="Jquery/jquery-3.7.0.min.js"></script>
     <script src="js/hora.js"></script>
     <script src="js/scroll.js"></script>
+    <script src="js/registro.js"></script>
 </body>
 </html>
